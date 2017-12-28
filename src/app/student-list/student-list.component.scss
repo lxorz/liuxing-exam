@@ -1,0 +1,27 @@
+button{
+    padding: 8px;
+    margin-bottom: 2px;
+    background-color :rgba(8, 32, 77, 0.459);
+
+}
+
+
+
+#button-style{
+    float:right;
+    text-align: top;
+    text-overflow: inherit
+
+}
+
+#sytle1{
+    font-size:15px;
+    font-style:italic;
+    list-style-type: none
+}
+
+li{
+    list-style-position:inside;padding-left:10px;border:1px dashed rgb(179, 204, 194);
+    list-style-type: none;
+    background-color:rgba(0, 183, 255, 0.233);
+}

@@ -1,0 +1,21 @@
+<h1 style="font-style:italic">商品系统：</h1>
+
+<div id="button-style">
+    <button (click)="sortUsers('asc')">正序</button>
+    <button (click)="sortUsers('desc')" >倒序</button>
+    <button (click)="sortUsers('random')">随机</button>
+    <button (click)="addNewUser()">新增商品</button>
+</div>
+<hr>
+<ul>
+
+<p>商品详情：</p>
+<div id="sytle1">
+    <li *ngFor="let user of users">      
+        <span (click)="deleteUserByID(user.id)">
+          <div id="sytle2">[删除商品]</div>
+        </span> ID:{{user.id}}，商品名称：{{user.name}}，种类：{{user.types}}，价格：{{user.price}}
+    </li>
+    </div>
+  </ul>
+  <hr>
